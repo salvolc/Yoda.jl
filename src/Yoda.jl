@@ -1,5 +1,11 @@
+__precompile__(true)
+
 module Yoda
 
-# Write your package code here.
+
+using StatsBase
+
+include("parser/histo1d.jl")
+include("parser/scatter2d.jl")
 
 end
