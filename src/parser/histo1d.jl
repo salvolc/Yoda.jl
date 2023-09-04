@@ -1,3 +1,7 @@
+export get_all_histograms
+export get_all_sumw2
+export get_all_errs
+
 function get_all_histograms(filename)
     io = open(filename, "r")
     file_string = read(io,String)

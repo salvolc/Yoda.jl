@@ -1,4 +1,9 @@
 #This is specific to Rivet analyses, not general 2D scatter plots in YODA format 
+export get_all_scatter
+export get_all_scatter_err
+export get_all_scatter_to_mc
+export get_all_scatter_to_names
+
 function give_scatter_names(file_lbl)
     histogram_names = []
     for i in 1:length(file_lbl)
