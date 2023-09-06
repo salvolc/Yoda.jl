@@ -1,4 +1,4 @@
-using Yoda
+using YodaFiles
 using Test
 
 @testset "Yoda.jl" begin

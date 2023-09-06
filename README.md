@@ -1,4 +1,4 @@
-# Yoda
+# YodaFiles
 Creating a package to interface the YODA format for Histograms into Julia. This format is predominantly used in high-energy particle physics such as for the MC validation tool RIVET. 
 For more information on the YODA file format visit the YODA homepage https://yoda.hepforge.org/ or the GitLab at
 https://gitlab.com/hepcedar/yoda
@@ -10,7 +10,7 @@ https://gitlab.com/hepcedar/yoda
 ## Example of Histo1D objects
 
 ```julia
-using Yoda
+using YodaFiles
 using Plots
 
 myhist = get_all_histograms("myfile.yoda") # Returns a 2D array with names and histograms
